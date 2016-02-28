@@ -34,8 +34,6 @@ public class AllAccountsAsync extends AsyncTask<Void, Void , List<AccountData>>{
 
     @Override
     protected List<AccountData> doInBackground(Void... params) {
-
-        Log.d("test", "test AllAccounts.doInBackground");
         AccountDAO dao = new AccountDAO(activity);
 
         List<AccountData> accountDatas = dao.getList();
@@ -46,7 +44,6 @@ public class AllAccountsAsync extends AsyncTask<Void, Void , List<AccountData>>{
 
     @Override
     protected void onPostExecute(List<AccountData> accountDatas) {
-        Log.d("test", "test AllAccounts.onPostExecute");
         AccountDataAdapter adapter = new AccountDataAdapter(accountDatas, activity);
 
         account_list.setAdapter(adapter);

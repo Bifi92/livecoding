@@ -52,8 +52,8 @@ public class AllAccountsActivity extends AppCompatActivity {
 
                 dao.close();
 
-                allAccountsAsync.execute();
-                //loadList();
+                //allAccountsAsync.execute();
+                loadList();
 
                 return false;
             }
@@ -61,7 +61,7 @@ public class AllAccountsActivity extends AppCompatActivity {
 
     }
 
-    /*private void loadList(){
+    private void loadList(){
 
         AccountDAO dao = new AccountDAO(AllAccountsActivity.this);
 
@@ -70,7 +70,7 @@ public class AllAccountsActivity extends AppCompatActivity {
         AccountDataAdapter adapter = new AccountDataAdapter(accountDatas, this);
 
         account_list.setAdapter(adapter);
-    }*/
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
