@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Thirty minutes</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="pass">Generated Password:</string>
+
+    <string name="generate">Generate Password</string>
+
+    <string name="site">Site:</string>
+
+    <string name="account">Account:</string>
+
+    <string name="save">Save Account</string>
+
+    <string name="all_accounts">Account List</string>
+
+    <string name="title_activity_all_accounts">AllAccounts</string>
+
+    <string name="text_pass">Password</string>
+
+    <string name="title_activity_configuration">ConfigurationActivity</string>
+
+    <string name="text_capital_letter">Capital Letters</string>
+
+    <string name="text_lower_case">Lower Case</string>
+
+    <string name="text_number">Numbers</string>
+
+    <string name="text_simbols">Simbols</string>
+
+    <string name="text_pass_size">Password Size</string>
+
+    <string name="text_save_config">Save</string>
+
+    <string name="text_config">Settings</string>
+
+    <string name="create_account">New Account</string>
+
+    <string name="title_activity_index">IndexActivity</string>
+
+    <string name="text_pin">PIN code:</string>
+
+    <string name="text_enter">Enter</string>
+
+    <string name="text_new_pin">New Pin Code</string>
+
+    <string name="text_change_pin">Change Pin Code</string>
+
+    <string name="title_activity_change_pin">ChangePinActivity</string>
+
+    <string name="text_new">New: </string>
+
+    <string name="text_current">Current: </string>
+
+    <string name="text_current_confirmation">Current Confirmation: </string>
+
+    <string name="text_cancel">Cancel</string>
+
+</resources>
